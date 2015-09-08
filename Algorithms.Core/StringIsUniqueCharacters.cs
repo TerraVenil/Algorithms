@@ -7,7 +7,7 @@ namespace Algorithms.Core
     /// <summary>
     /// The string.
     /// </summary>
-    public static class String
+    public static partial class String
     {
         /// <summary>
         /// Time complexity - O(n*n), where n - length of the string

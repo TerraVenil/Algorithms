@@ -3,7 +3,7 @@
 namespace Algorithms.Core.Tests
 {
     [TestFixture]
-    public class StringTests
+    public class StringIsUniqueCharactersTests
     {
         /// <summary>
         /// ASCII - 256 (0 - 255) characters
@@ -13,7 +13,7 @@ namespace Algorithms.Core.Tests
         [TestCase("9ik0;l")]
         [TestCase("f4iu")]
         [TestCase("rituo")]
-        public void UniqueCharacters1True(string value)
+        public void IsUniqueCharacters1True(string value)
         {
             var result = String.IsUniqueCharacters1(value);
 
@@ -21,7 +21,7 @@ namespace Algorithms.Core.Tests
         }
 
         [TestCase("rituoi")]
-        public void UniqueCharacters1False(string value)
+        public void IsUniqueCharacters1False(string value)
         {
             var result = String.IsUniqueCharacters1(value);
 
@@ -32,7 +32,7 @@ namespace Algorithms.Core.Tests
         [TestCase("9ik0;l")]
         [TestCase("f4iu")]
         [TestCase("rituo")]
-        public void UniqueCharacters2True(string value)
+        public void IsUniqueCharacters2True(string value)
         {
             var result = String.IsUniqueCharacters2(value);
 
@@ -51,7 +51,7 @@ namespace Algorithms.Core.Tests
         [TestCase("9ik0;l")]
         [TestCase("f4iu")]
         [TestCase("rituo")]
-        public void UniqueCharacters3True(string value)
+        public void IsUniqueCharacters3True(string value)
         {
             var result = String.IsUniqueCharacters3(value);
 
@@ -59,7 +59,7 @@ namespace Algorithms.Core.Tests
         }
 
         [TestCase("rituoi")]
-        public void UniqueCharacters3False(string value)
+        public void IsUniqueCharacters3False(string value)
         {
             var result = String.IsUniqueCharacters3(value);
 
@@ -70,7 +70,7 @@ namespace Algorithms.Core.Tests
         [TestCase("9ik0;l")]
         [TestCase("f4iu")]
         [TestCase("rituo")]
-        public void UniqueCharacters4True(string value)
+        public void IsUniqueCharacters4True(string value)
         {
             var result = String.IsUniqueCharacters4(value);
 
@@ -78,7 +78,7 @@ namespace Algorithms.Core.Tests
         }
 
         [TestCase("rituoi")]
-        public void UniqueCharacters4False(string value)
+        public void IsUniqueCharacters4False(string value)
         {
             var result = String.IsUniqueCharacters4(value);
 
