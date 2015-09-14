@@ -43,6 +43,7 @@
     <Compile Include="StringIsPermutation.cs" />
     <Compile Include="StringIsUniqueCharacters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringRemoveSpaces.cs" />
     <Compile Include="StringReverse.cs" />
     <Compile Include="Swapper.cs" />
   </ItemGroup>
