@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StringCompressTests.cs" />
     <Compile Include="StringIsPermutationTests.cs" />
     <Compile Include="StringIsUniqueCharactersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

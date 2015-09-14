@@ -2,6 +2,7 @@
 
 namespace Algorithms.Core.Tests
 {
+    [TestFixture]
     public class StringRemoveSpacesTests
     {
         [TestCase("Mr John Smith               ")]
